@@ -76,11 +76,11 @@ const LinkPage = () => {
             {url?.title}
           </span>
           <a
-            href={`https://shortrim.in/${link}`}
+            href={`https://shortrim.vercel.app/${link}`}
             target="_blank"
             className="text-3xl sm:text-4xl text-blue-400 font-bold hover:underline cursor-pointer"
           >
-            https://shortrim.in/{link}
+            https://shortrim.vercel.app/{link}
           </a>
           <a
             href={url?.original_url}
@@ -97,7 +97,7 @@ const LinkPage = () => {
             <Button
               variant="ghost"
               onClick={() =>
-                navigator.clipboard.writeText(`https://shortrim.in/${link}`)
+                navigator.clipboard.writeText(`https://shortrim.vercel.app/${link}`)
               }
             >
               <Copy />

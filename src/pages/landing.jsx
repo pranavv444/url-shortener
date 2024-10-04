@@ -41,9 +41,9 @@ const LandingPage = () => {
       </form>
       <img
         src="/urlshort.webp" // replace with 2 in small screens
-        className="w-full my-11 md:px-11"
+        className="w-full my-9 md:px-9"
       />
-      <Accordion type="multiple" collapsible className="w-full md:px-11">
+      <Accordion type="multiple" collapsible="true" className="w-full md:px-11">
         <AccordionItem value="item-1">
           <AccordionTrigger>
             How does the Shortrim URL shortener works?
